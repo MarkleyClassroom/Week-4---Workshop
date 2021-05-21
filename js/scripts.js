@@ -11,6 +11,14 @@
             $("#carouselButton").children("i").removeClass("fa-play");
             $("#carouselButton").children("i").addClass("fa-pause");
         }
+    });
+    //show the reservaton modal on click of the Reserve Campsite button
+    $("#reserveButton").click(function(){
+        $("#reserveModal").modal('show');
+    });
+    //show the loginModal on click of the login button
+    $("#loginButton").click(function(){
+        $("#loginModal").modal('show');
     })
 
 })
